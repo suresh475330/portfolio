@@ -28,3 +28,105 @@ body {
     scroll-behavior: smooth;
 }
 
+/* Small Screens max width 640px */
+@media screen and (max-width: 640px) {
+    .skillsGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        grid-auto-rows: auto;
+        height: auto;
+    }
+
+    .skillsGrid .imgComp {
+        max-height: 75px;
+        max-width: 75px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .skillsGrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        grid-auto-rows: auto;
+        height: auto;
+    }
+
+    .skillsGrid .imgComp {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .skillsGrid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 50px;
+        grid-auto-rows: auto;
+        height: auto
+    }
+
+    .skillsGrid .imgComp {
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+.messageInput {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 10px 20px 0px rgba(7, 7, 26, 0.15);
+    outline: none;
+}
+
+
+.messageBox {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 10px 20px 0px rgba(7, 7, 26, 0.15);
+    backdrop-filter: blur(10px);
+    outline: none;
+}
+
+

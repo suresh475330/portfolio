@@ -18,7 +18,7 @@ export default function About() {
                     <h1 className="text-3xl sm:text-5xl text-white font-bold leading-tight mb-2">About Me</h1>
                     <p className="text-md md:text-lg font-normal text-slate-200 mb-2">
                         Hi there! My name is Suresh and I'm a Full Stack Developer from Chennai.
-                        I'm currently studying BCA at the University of Madras Arts and Science College in Nemmeli.
+                        {/* I'm currently studying BCA at the University of Madras Arts and Science College in Nemmeli. */}
                     </p>
                     <p className="text-md md:text-lg font-normal text-slate-200 mb-2">
                         I have a deep love for programming and enjoy creating awesome projects and websites that are both functional and visually appealing.
