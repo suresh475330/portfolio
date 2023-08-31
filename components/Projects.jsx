@@ -64,7 +64,7 @@ const projectData = [
         tech: "Python, Flask, Sqlalchemy, planetscale",
         githubUrl: "https://github.com/suresh475330/make-careers-website",
         projectUrl: "https://makecareers.onrender.com/",
-        imageUrl: "https://github.com/suresh475330/movie-app/assets/99592234/fd2e61e5-8bd1-4292-b90a-f81bae33e9f8",
+        imageUrl: "https://i.ibb.co/tshkD7f/make.png",
     },
 
 ]
