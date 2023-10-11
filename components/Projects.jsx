@@ -66,6 +66,14 @@ const projectData = [
         projectUrl: "https://makecareers.onrender.com/",
         imageUrl: "https://i.ibb.co/tshkD7f/make.png",
     },
+    {
+        id: "9",
+        title: "Blog web Application",
+        tech: "Next js, TypeScript, Tailwind css, Sanity CMS",
+        githubUrl: "https://github.com/suresh475330/blog-app-sanity",
+        projectUrl: "https://blog-app-cyan.vercel.app",
+        imageUrl: "https://github.com/suresh475330/img_upload/assets/99592234/967ca57e-65ca-4a65-a486-37b96b05055d",
+    },
 
 ]
 
